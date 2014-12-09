@@ -20,6 +20,12 @@ public class MyTestClass {
 }
 ----
 
+.Optional Title
+[NOTE]
+This is an example
+single-paragraph note.
+
+
 
 WARNING: This is an Asciidoc document
 
