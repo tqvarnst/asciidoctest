@@ -2,3 +2,8 @@
 This is a little test
 
 Another paragraph
+
++
+[source]
+mkdir -p test/examples/shiny
++
