@@ -19,3 +19,8 @@ public class MyTestClass {
   }
 }
 ----
+
+[NOTE]
+----
+This is an Asciidoc document
+----
