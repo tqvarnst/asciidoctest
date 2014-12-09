@@ -3,7 +3,19 @@ This is a little test
 
 Another paragraph
 
-+
-[source]
-mkdir -p test/examples/shiny
-+
+[source,ruby]
+----
+require 'asciidoctor'
+
+puts Asciidoctor.render_file('sample.adoc', :header_footer => true)
+----
+
+
+[source,java]
+----
+public class MyTestClass {
+  public void main(String args[]) {
+    System.out.println("Hello, World!!");
+  }
+}
+----
