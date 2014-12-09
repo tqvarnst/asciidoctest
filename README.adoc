@@ -29,10 +29,11 @@ puts Asciidoctor.render_file('sample.adoc', :header_footer => true)
 ----
 public class MyTestClass {
   public void main(String args[]) {
-    System.out.println("Hello, World!!");
+    System.out.println("Hello, World!!");<1>
   }
 }
 ----
+<1> This will print **Hello,World!!** to the console
 
 .Optional Title
 [NOTE]
